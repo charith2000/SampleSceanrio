@@ -1,0 +1,38 @@
+<label style="color: black; font-size: large; font-weight: bolder"> Admin : User Account Authorization </label>
+<mat-grid-list cols="10" rowHeight="100%" >
+  <mat-grid-tile>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="8">
+    <form class="example-form">
+      <mat-form-field  lass="example-full-width" appearance="fill" color="accent" >
+        <mat-label>User name Name</mat-label>
+        <input matInput placeholder="" name="usename"
+               [(ngModel)] ="username">
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill" color="accent" >
+        <mat-label>Account Number Prefix</mat-label>
+        <input matInput placeholder="Enter your nic" name="nic"
+               [(ngModel)] ="nic" >
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill" color="accent" >
+        <mat-label>Account number suffix</mat-label>
+        <input matInput placeholder="Enter your date of birth" name="dob"
+               [(ngModel)] ="dob" >
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill" color="accent">
+        <mat-label>Account Num</mat-label>
+        <input matInput placeholder="Enter your date of birth" name="contactNumber"
+               [(ngModel)] ="contactNumber" >
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill" color="accent">
+        <mat-label>Process Dat</mat-label>
+        <input matInput placeholder="Enter your password" value="" name="newPassword" type="password" [(ngModel)]= "newPassword">
+      </mat-form-field>
+      <button mat-raised-button>Authorize</button>
+
+    </form>
+  </mat-grid-tile>
+  <mat-grid-tile>
+  </mat-grid-tile>
+</mat-grid-list>

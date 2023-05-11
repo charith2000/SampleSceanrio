@@ -1,0 +1,46 @@
+.example-full-width {
+  width: 100%;
+}
+
+
+td {
+  padding-right: 8px;
+}
+
+mat-grid-tile {
+  align-items: flex-start;
+  background: #dbdbdb;
+
+}
+
+.imageSize{
+  height: 100%;
+  width: 100%;
+  opacity: 30%;
+}
+
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+.mat-elevation-z8{
+  height: 100%;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.text-inside-grid {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30%;
+  overflow: auto;
+}
+.setColor .mat-radio-button{
+  color: black;
+}
+.example-margin{
+  color: black;
+}

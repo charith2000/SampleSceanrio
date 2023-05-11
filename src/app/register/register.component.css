@@ -1,0 +1,43 @@
+mat-grid-tile {
+  align-items: center;
+  justify-content: center;
+}
+mat-form-field{
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  margin-left: 4.5%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+.example-form{
+  background: gray;
+  width: 100%;
+  height: 100%;
+  padding-right: 10%;
+  display: list-item;
+  padding-top: 20%;
+}
+.loginImg{
+  margin-left: 35%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  width: 40%;
+  height: 30%;
+  border-radius: 50%;
+}
+.backImg{
+  width: 100%;
+  height: 100%;
+  opacity: 80%;
+}
+.heading{
+  margin-left: 35%;
+}
